@@ -5,12 +5,10 @@
 @tailwind utilities;
 
 :root {
-  --black-gradient: linear-gradient(
-    144.39deg,
-    hsl(0, 0%, 100%) -278.56%,
-    hsl(0, 0%, 43%) -78.47%,
-    hsl(245, 29%, 9%) 91.61%
-  );
+  --black-gradient: linear-gradient(144.39deg,
+      hsl(0, 0%, 100%) -278.56%,
+      hsl(0, 0%, 43%) -78.47%,
+      hsl(245, 29%, 9%) 91.61%);
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
@@ -19,15 +17,13 @@
 }
 
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    hsl(182, 74%, 93%) 0.89%,
-    hsl(182, 73%, 85%) 17.23%,
-    hsl(182, 73%, 78%) 42.04%,
-    hsl(182, 73%, 71%) 55.12%,
-    hsl(182, 73%, 63%) 71.54%,
-    hsl(188, 62%, 51%) 100%
-  );
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+      hsl(182, 74%, 93%) 0.89%,
+      hsl(182, 73%, 85%) 17.23%,
+      hsl(182, 73%, 78%) 42.04%,
+      hsl(182, 73%, 71%) 55.12%,
+      hsl(182, 73%, 63%) 71.54%,
+      hsl(188, 62%, 51%) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -35,41 +31,33 @@
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    hsl(182, 74%, 93%) -43.27%,
-    hsl(182, 73%, 85%) -21.24%,
-    hsl(182, 73%, 78%) 12.19%,
-    hsl(182, 73%, 71%) 29.82%,
-    hsl(182, 73%, 63%) 51.94%,
-    hsl(188, 62%, 51%) 90.29%
-  );
+  background: linear-gradient(157.81deg,
+      hsl(182, 74%, 93%) -43.27%,
+      hsl(182, 73%, 85%) -21.24%,
+      hsl(182, 73%, 78%) 12.19%,
+      hsl(182, 73%, 71%) 29.82%,
+      hsl(182, 73%, 63%) 51.94%,
+      hsl(188, 62%, 51%) 90.29%);
 }
 
 .bg-black-gradient {
-  background: linear-gradient(
-    144.39deg,
-    hsl(0, 0%, 100%) -278.56%,
-    hsl(0, 0%, 43%) -78.47%,
-    hsl(245, 29%, 9%) 91.61%
-  );
+  background: linear-gradient(144.39deg,
+      hsl(0, 0%, 100%) -278.56%,
+      hsl(0, 0%, 43%) -78.47%,
+      hsl(245, 29%, 9%) 91.61%);
 }
 
 .bg-black-gradient-2 {
-  background: linear-gradient(
-    -168.39deg,
-    hsl(0, 0%, 100%) -278.56%,
-    hsl(0, 0%, 43%) -78.47%,
-    hsl(245, 29%, 9%) 91.61%
-  );
+  background: linear-gradient(-168.39deg,
+      hsl(0, 0%, 100%) -278.56%,
+      hsl(0, 0%, 43%) -78.47%,
+      hsl(245, 29%, 9%) 91.61%);
 }
 
 .bg-gray-gradient {
-  background: linear-gradient(
-    153.47deg,
-    hsla(0, 0%, 100%, 0) -341.94%,
-    hsl(258, 29%, 9%) 95.11%
-  );
+  background: linear-gradient(153.47deg,
+      hsla(0, 0%, 100%, 0) -341.94%,
+      hsl(258, 29%, 9%) 95.11%);
 }
 
 .bg-discount-gradient {
@@ -90,6 +78,7 @@
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -101,6 +90,7 @@
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -138,3 +128,15 @@
   background: hsla(0, 0%, 100%, 0.6);
   filter: blur(750px);
 }
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.scrollbar-thumb::-webkit-scrollbar-thumb {
+  background-color: hsl(188, 62%, 51%);
+  border-radius: 100px;
+}
+
+/* h-32 scrollbar scrollbar-tumb-blue-500 scrollbar-track-cyan-200 scrollbar-thin */

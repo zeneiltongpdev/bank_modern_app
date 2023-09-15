@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em hsla(237, 100%, 70%, 0.667));
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em hsla(193, 95%, 68%, 0.667));
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,16 +42,4 @@
 
 .read-the-docs {
   color: hsl(0, 0%, 53%);
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: hsl(207, 73%, 57%);
-}
-
-::-webkit-scrollbar-track {
-  background-color: hsl(210, 38%, 95%);
 }
